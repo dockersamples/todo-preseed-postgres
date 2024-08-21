@@ -108,9 +108,9 @@ The project is organized into two primary sections:
 
 In the project directory, you can run the following scripts:
 
-- npm start: Starts the development server for both the backend and frontend.
-- npm run seed: Seeds data into the database.
-- npm test: Runs tests for both the backend and frontend.
+- `npm start`: Starts the development server for both the backend and frontend.
+- `npm run seed`: Seeds data into the database.
+- `npm test`: Runs tests for both the backend and frontend.
 
 
 ## Contributing
