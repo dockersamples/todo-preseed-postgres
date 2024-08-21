@@ -88,20 +88,20 @@ The project is organized into two primary sections:
 
 ## Backend
 
-- server.js: The main file for the backend server.
-- db.js: A file that sets up the PostgreSQL connection pool.
-- seed.js: A script for seeding data into the database.
-- .env: A file for storing environment variables, such as database credentials.
+- `server.js`: The main file for the backend server.
+- `db.js`: A file that sets up the PostgreSQL connection pool.
+- `seed.js`: A script for seeding data into the database.
+- `.env`: A file for storing environment variables, such as database credentials.
 
 
 ## Frontend
 
-- public: Contains static assets, such as HTML, CSS, and images.
-- src: Contains the main source code for the frontend application.
-- App.js: The main component of the application.
-- index.js: The entry point for the application.
-- components: A directory containing reusable components, such as TodoList and TodoItem.
-- services: A directory containing services for interacting with the backend API.
+- `public`: Contains static assets, such as HTML, CSS, and images.
+- `src`: Contains the main source code for the frontend application.
+- `App.js`: The main component of the application.
+- `index.js`: The entry point for the application.
+- `components`: A directory containing reusable components, such as TodoList and TodoItem.
+- `services`: A directory containing services for interacting with the backend API.
 
 
 ## Available Scripts
