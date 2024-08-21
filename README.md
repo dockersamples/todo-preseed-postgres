@@ -1,5 +1,8 @@
 ## Todo Preseed PostgreSQL Project
 
+<img width="642" alt="image" src="https://github.com/user-attachments/assets/0910ce3e-4973-4e2e-b669-72cc6cb6bd53">
+
+
 This project is a simple todo list application that uses a PostgreSQL database pre-seeded with a todo schema and data. 
 The frontend is built using Create React App, and the backend is a Node.js server using Express.
 
