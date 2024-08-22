@@ -8,7 +8,7 @@ The frontend is built using Create React App, and the backend is a Node.js serve
 
 ## Pre-requisite
 
-- Docker Desktop
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 
 ## Getting Started
 
