@@ -39,10 +39,7 @@ Open up [https://localhost:8080](https://localhost:8080) to access adminer.
 ![image](https://github.com/user-attachments/assets/f472e208-3c3c-4fb6-91d9-643186e4b914)
 
 
-
-
-
-Once you login, you should be able to see empty table and schema.
+Once you log in( using the credentials that you can find in the compose.yml file), you should be able to see empty table and schema.
 
 ![image](https://github.com/user-attachments/assets/23a1af8d-348a-4fcb-89e4-32fc910cd4b0)
 
