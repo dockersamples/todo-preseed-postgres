@@ -143,7 +143,8 @@ npm start
 
 4. Open your browser and visit `http://localhost:3000` to view the to-do list application.
 
-<img width="443" alt="image" src="https://github.com/user-attachments/assets/c5832c56-884c-4d14-8ba9-1caecbd4b7b0">
+<img width="354" alt="image" src="https://github.com/user-attachments/assets/dceb820c-64f1-4615-813c-3c713505c36d">
+
 
 
 
