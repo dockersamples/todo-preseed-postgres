@@ -98,7 +98,14 @@ npm run seed
 
 ```
 cd backend/
-npm start
+npm install
+node server.js
+```
+
+### Result:
+
+```
+Server is running on port 5000
 ```
 
 
@@ -115,7 +122,7 @@ frontend
 ```
 
 
-1. Navigate to the frontend directory:
+1. Open a new terminal and navigate to the frontend directory:
 
 ```
 cd frontend
@@ -133,7 +140,12 @@ npm install
 npm start
 ```
 
+
+
 4. Open your browser and visit `http://localhost:3000` to view the todo list application.
+
+<img width="443" alt="image" src="https://github.com/user-attachments/assets/c5832c56-884c-4d14-8ba9-1caecbd4b7b0">
+
 
 
 ## Building from the scratch
