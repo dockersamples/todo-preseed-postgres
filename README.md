@@ -21,8 +21,17 @@ git clone https://github.com/ajeetraina/todo-preseed-postgres.git
 cd todo-preseed-postgres
 ```
 
+## 2. Setup environmental variables
 
-## 2. Run Postgres and Adminer in a Docker container
+Create .env.compose and add the following entries:
+
+```
+POSTGRES_USER=postgres
+POSTGRES_PASSWORD=<your_postgres_password>
+POSTGRES_DB=todo_app
+```
+
+## 2. Bring up Postgres and Adminer containers
 
 ```
 docker compose up -d
@@ -39,7 +48,7 @@ Open up [https://localhost:8080](https://localhost:8080) to access adminer.
 ![image](https://github.com/user-attachments/assets/f472e208-3c3c-4fb6-91d9-643186e4b914)
 
 
-Once you log in( using the credentials that you can find in the compose.yml file), you should be able to see empty table and schema.
+Once you log in, you should be able to see an empty table and schema.
 
 ![image](https://github.com/user-attachments/assets/23a1af8d-348a-4fcb-89e4-32fc910cd4b0)
 
@@ -52,8 +61,9 @@ Once you log in( using the credentials that you can find in the compose.yml file
 root/
 │
 ├── seed.js            # Script for seeding the database
-├── .env               # Environment variables for seeding (if applicable)
-├── docker-compose.yml # Running Postgres and Adminer in a Docker container
+├── .env.compose       # Environment variables for Compose file
+├── .env               # Environment variables for seeding
+├── compose.yml # Running Postgres and Adminer in a Docker container
 │
 └── backend/           # Backend directory
     ├── server.js      # Express.js server and API routes
@@ -89,6 +99,9 @@ DB_PORT=your_database_port
 ```
 npm run seed
 ```
+
+![image](https://github.com/user-attachments/assets/b3d80af0-e283-45b9-aa66-19ca8b3a8a21)
+
 
 5. Start the backend server:
 
