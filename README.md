@@ -23,7 +23,7 @@ cd todo-preseed-postgres
 
 ## 2. Setup environmental variables
 
-Create .env.compose and add the following entries:
+Create `.env.compose` file under the `todo-preseed-postgres` directory  and add the following entries:
 
 ```
 POSTGRES_USER=postgres
