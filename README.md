@@ -28,6 +28,16 @@ cd todo-preseed-postgres
 docker compose up -d
 ```
 
+you can verify the services running on Docker Dashboard.
+
+<img width="1332" alt="image" src="https://github.com/user-attachments/assets/f9b04ad7-9ed1-4bca-a7a4-c507543b770c">
+
+
+Open up [https://localhost:8082](https://localhost:8082) to access adminer.
+
+![image](https://github.com/user-attachments/assets/5e025af3-1f9e-4f04-b0a3-a2ff50b8b28d)
+
+
 
 ## Backend Setup
 
