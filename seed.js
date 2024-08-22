@@ -3,11 +3,11 @@ const { Pool } = require('pg');
 
 // Create a new pool using environment variables
 const pool = new Pool({
-  user: process.env.DB_USER,
-  host: process.env.DB_HOST,
-  database: process.env.DB_NAME,
-  password: process.env.DB_PASSWORD,
-  port: process.env.DB_PORT,
+  user: process.env.POSTGRES_USER,
+  host: process.env.POSTGRES_DB_HOST,
+  database: process.env.POSTGRES_DB,
+  password: process.env.POSTGRES_PASSWORD,
+  port: process.env.POSTGRES_PORT,
 });
 
 const seedData = async () => {
