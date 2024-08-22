@@ -1,4 +1,4 @@
-## Todo Preseed PostgreSQL Project
+## A Sample Todo-List App Preseed PostgreSQL Project
 
 <img width="642" alt="image" src="https://github.com/user-attachments/assets/0910ce3e-4973-4e2e-b669-72cc6cb6bd53">
 
