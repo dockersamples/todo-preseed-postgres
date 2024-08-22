@@ -91,9 +91,13 @@ npm run seed
 ![image](https://github.com/user-attachments/assets/b3d80af0-e283-45b9-aa66-19ca8b3a8a21)
 
 
-5. Start the backend server:
+
+## Running the full-fledge application
+
+1. Start the backend server:
 
 ```
+cd backend/
 npm start
 ```
 
@@ -132,7 +136,7 @@ npm start
 4. Open your browser and visit `http://localhost:3000` to view the todo list application.
 
 
-## Project Structure
+## Building from the scratch
 
 The project is organized into two primary sections: 
 - backend and
