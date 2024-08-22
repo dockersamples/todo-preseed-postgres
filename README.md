@@ -51,6 +51,20 @@ Once you login, you should be able to see empty table and schema.
 
 ## Backend Setup
 
+```
+root/
+│
+├── seed.js            # Script for seeding the database
+├── .env               # Environment variables for seeding (if applicable)
+├── docker-compose.yml # Running Postgres and Adminer in a Docker container
+│
+└── backend/           # Backend directory
+    ├── server.js      # Express.js server and API routes
+    ├── .env           # Environment variables for backend (specific to server.js)
+    └── node_modules/  # Node.js dependencies for backend
+```
+
+
 1. Navigate to the backend directory: 
 
 ```
@@ -87,6 +101,17 @@ npm start
 
 
 ## Frontend Setup
+
+```
+frontend
+├── README.md
+├── node_modules
+├── package-lock.json
+├── package.json
+├── public
+└── src
+```
+
 
 1. Navigate to the frontend directory:
 
