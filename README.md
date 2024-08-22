@@ -58,25 +58,6 @@ Once you log in, you should be able to see an empty table and schema.
 
 
 
-
-## Seeding the database
-
-```
-root/
-│
-├── seed.js            # Script for seeding the database
-├── .env.compose       # Environment variables for Compose file
-├── .env.sample        # Environment variables for seeding
-├── compose.yml # Running Postgres and Adminer in a Docker container
-│
-└── backend/           # Backend directory
-    ├── server.js      # Express.js server and API routes
-    ├── .env.sample           # Environment variables for backend (specific to server.js)
-    └── node_modules/  # Node.js dependencies for backend
-```
-
-
-
 ## 3. Run the database seed script:
 
 ```
