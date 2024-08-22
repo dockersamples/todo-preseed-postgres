@@ -67,7 +67,7 @@ root/
 │
 └── backend/           # Backend directory
     ├── server.js      # Express.js server and API routes
-    ├── .env           # Environment variables for backend (specific to server.js)
+    ├── .env.sample           # Environment variables for backend (specific to server.js)
     └── node_modules/  # Node.js dependencies for backend
 ```
 
