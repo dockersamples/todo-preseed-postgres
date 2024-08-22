@@ -34,7 +34,7 @@ You can verify the services running on Docker Dashboard.
 
 
 
-Open up [https://localhost:8082](https://localhost:8082) to access adminer.
+Open up [https://localhost:8080](https://localhost:8080) to access adminer.
 
 ![image](https://github.com/user-attachments/assets/f472e208-3c3c-4fb6-91d9-643186e4b914)
 
