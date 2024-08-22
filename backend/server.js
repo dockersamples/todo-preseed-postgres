@@ -1,14 +1,15 @@
+require('dotenv').config();  // Load environment variables from .env file
 const express = require('express');
 const cors = require('cors');
 const { Pool } = require('pg');
 
 const app = express();
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'todo_app',
-  password: 'mysecretpassword',
-  port: 5432,
+  user: process.env.DB_USER,
+  host: process.env.DB_HOST,
+  database: process.env.DB_NAME,
+  password: process.env.DB_PASSWORD,
+  port: process.env.DB_PORT,
 });
 
 app.use(cors());
@@ -62,4 +63,3 @@ app.delete('/todos/:id', async (req, res) => {
     console.error(err.message);
   }
 });
-
