@@ -91,6 +91,16 @@ npm run seed
 ![image](https://github.com/user-attachments/assets/b3d80af0-e283-45b9-aa66-19ca8b3a8a21)
 
 
+Note: To automate the seeding process, we have included it as part of your npm scripts. Here’s an example with npm scripts:
+
+```
+"scripts": {
+  "seed": "node seed.js"
+}
+```
+
+That's the reason why you were able to execute `npm run seed` to seed the database.
+
 
 ## Running the full-fledged application
 
