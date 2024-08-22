@@ -1,6 +1,7 @@
 ## A Sample Todo-List App Preseed PostgreSQL Project
 
-<img width="642" alt="image" src="https://github.com/user-attachments/assets/0910ce3e-4973-4e2e-b669-72cc6cb6bd53">
+<img width="670" alt="image" src="https://github.com/user-attachments/assets/aab30ac9-c8a2-4184-a504-1adaffa9324f">
+
 
 
 This project is a simple todo list application that uses a PostgreSQL database pre-seeded with a todo schema and data. 
