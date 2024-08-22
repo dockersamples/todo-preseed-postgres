@@ -24,12 +24,15 @@ cd todo-preseed-postgres
 
 ## 2. Setup environmental variables
 
-Copy `.env.compose.sample` to the `.env.compose` file and make the necessary changes:
+Copy `.env.sample` to the `.env` file and make the necessary changes:
 
 ```
 POSTGRES_USER=postgres
-POSTGRES_PASSWORD=<your_postgres_password>
+POSTGRES_DB_HOST=localhost
 POSTGRES_DB=todo_app
+POSTGRES_PASSWORD=<add_your_postgres_password>
+POSTGRES_PORT=5432
+
 ```
 
 ## 2. Bring up Postgres and Adminer containers
@@ -73,17 +76,8 @@ root/
 ```
 
 
-1. Copy `.env.sample` to the `.env` file and make the necessary changes:
 
-```
-DB_USER=postgres
-DB_HOST=localhost
-DB_NAME=todo_app
-DB_PASSWORD=<your_database_password>
-DB_PORT=5432
-```
-
-4. Run the database seed script:
+## 3. Run the database seed script:
 
 ```
 npm run seed
@@ -105,7 +99,9 @@ That's the reason why you were able to execute `npm run seed` to seed the databa
 
 ## Running the full-fledged application
 
-1. Start the backend server:
+1. Start the backend server
+
+Change directory to `backend/`. Run the following command after renaming the `.env.sample` to the `.env` file and modifying the file with the right password.
 
 ```
 cd backend/
