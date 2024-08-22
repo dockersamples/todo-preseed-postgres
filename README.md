@@ -23,7 +23,7 @@ cd todo-preseed-postgres
 
 ## 2. Setup environmental variables
 
-Create `.env.compose` file under the `todo-preseed-postgres` directory  and add the following entries:
+Copy `.env.compose.sample` to the `.env.compose` file and make the necessary changes:
 
 ```
 POSTGRES_USER=postgres
@@ -72,13 +72,13 @@ root/
 ```
 
 
-1. Create a .env file in the root directory and replace the DB password with the right entry:
+1. Copy `.env.sample` to the `.env.compose` file and make the necessary changes:
 
 ```
 DB_USER=postgres
 DB_HOST=localhost
 DB_NAME=todo_app
-DB_PASSWORD=your_database_password
+DB_PASSWORD=<your_database_password>
 DB_PORT=5432
 ```
 
