@@ -1,11 +1,13 @@
+require('dotenv').config();  // Load environment variables from .env file
 const { Pool } = require('pg');
 
+// Create a new pool using environment variables
 const pool = new Pool({
-  user: 'postgres',
-  host: 'localhost',
-  database: 'todo_app',
-  password: 'mysecretpassword',
-  port: 5432,
+  user: process.env.DB_USER,
+  host: process.env.DB_HOST,
+  database: process.env.DB_NAME,
+  password: process.env.DB_PASSWORD,
+  port: process.env.DB_PORT,
 });
 
 const seedData = async () => {
