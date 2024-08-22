@@ -62,7 +62,7 @@ root/
 │
 ├── seed.js            # Script for seeding the database
 ├── .env.compose       # Environment variables for Compose file
-├── .env               # Environment variables for seeding
+├── .env.sample        # Environment variables for seeding
 ├── compose.yml # Running Postgres and Adminer in a Docker container
 │
 └── backend/           # Backend directory
@@ -72,7 +72,7 @@ root/
 ```
 
 
-1. Copy `.env.sample` to the `.env.compose` file and make the necessary changes:
+1. Copy `.env.sample` to the `.env` file and make the necessary changes:
 
 ```
 DB_USER=postgres
@@ -92,7 +92,7 @@ npm run seed
 
 
 
-## Running the full-fledge application
+## Running the full-fledged application
 
 1. Start the backend server:
 
@@ -141,8 +141,7 @@ npm start
 ```
 
 
-
-4. Open your browser and visit `http://localhost:3000` to view the todo list application.
+4. Open your browser and visit `http://localhost:3000` to view the to-do list application.
 
 <img width="443" alt="image" src="https://github.com/user-attachments/assets/c5832c56-884c-4d14-8ba9-1caecbd4b7b0">
 
