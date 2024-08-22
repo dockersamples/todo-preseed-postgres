@@ -36,14 +36,16 @@ You can verify the services running on Docker Dashboard.
 
 Open up [https://localhost:8082](https://localhost:8082) to access adminer.
 
-![image](https://github.com/user-attachments/assets/852ffb59-970e-42d0-930e-389c643df65a)
+![image](https://github.com/user-attachments/assets/f472e208-3c3c-4fb6-91d9-643186e4b914)
+
 
 
 
 
 Once you login, you should be able to see empty table and schema.
 
-![image](https://github.com/user-attachments/assets/094c697b-cf64-43de-9bd6-f98fd8dcbdfb)
+![image](https://github.com/user-attachments/assets/23a1af8d-348a-4fcb-89e4-32fc910cd4b0)
+
 
 
 
