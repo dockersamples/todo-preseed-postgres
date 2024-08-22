@@ -55,7 +55,7 @@ Once you log in, you should be able to see an empty table and schema.
 
 
 
-## Backend Setup
+## Seeding the database
 
 ```
 root/
@@ -72,26 +72,14 @@ root/
 ```
 
 
-1. Navigate to the backend directory: 
+1. Create a .env file in the root directory and replace the DB password with the right entry:
 
 ```
-cd backend
-```
-
-2. Install dependencies:
-
-```
-npm install
-```
-
-3. Create a .env file in the backend directory and add the following environment variables:
-
-```
-DB_USER=your_database_user
-DB_HOST=your_database_host
-DB_NAME=your_database_name
+DB_USER=postgres
+DB_HOST=localhost
+DB_NAME=todo_app
 DB_PASSWORD=your_database_password
-DB_PORT=your_database_port
+DB_PORT=5432
 ```
 
 4. Run the database seed script:
