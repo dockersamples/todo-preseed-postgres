@@ -6,6 +6,10 @@
 This project is a simple todo list application that uses a PostgreSQL database pre-seeded with a todo schema and data. 
 The frontend is built using Create React App, and the backend is a Node.js server using Express.
 
+## Pre-requisite
+
+- Docker Desktop
+
 ## Getting Started
 
 To get started with this project, follow these steps:
@@ -14,12 +18,14 @@ To get started with this project, follow these steps:
 
 ```
 git clone https://github.com/ajeetraina/todo-preseed-postgres.git
-```
-
-## 2. Navigate to the project directory: 
-
-```
 cd todo-preseed-postgres
+```
+
+
+## 2. Run Postgres and Adminer in a Docker container
+
+```
+docker compose up -d
 ```
 
 
