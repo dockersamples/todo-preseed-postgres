@@ -8,14 +8,18 @@ services:
     ports:
       - 5432:5432
 
-  adminer:
-    image: adminer
+  pgadmin:
+    image: dpage/pgadmin4
     restart: always
     ports:
-      - 8080:8080
+      - 8080:80
     environment:
-      ADMINER_DEFAULT_SERVER: postgres
+      PGADMIN_DEFAULT_EMAIL: "dearmoby@docker.com"
+      PGADMIN_DEFAULT_PASSWORD: "mysecretpassword"
+    volumes:
+       - pgadmin:/root/.pgadmin
 
 volumes:
   postgresdata:
+  pgadmin:
 
