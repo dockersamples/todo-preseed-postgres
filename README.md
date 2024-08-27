@@ -70,7 +70,6 @@ Once you add a new server, you can find the list of tasks by selecting the right
 ![image](https://github.com/user-attachments/assets/7b5a900e-7482-4904-a6c5-0f635610f920)
 
 
-<img width="1065" alt="image" src="https://github.com/user-attachments/assets/db59d00b-d00b-419f-bc1d-cec70b97d498">
 
 
 
@@ -83,7 +82,7 @@ Once you add a new server, you can find the list of tasks by selecting the right
 npm run seed
 ```
 
-![image](https://github.com/user-attachments/assets/b3d80af0-e283-45b9-aa66-19ca8b3a8a21)
+<img width="1065" alt="image" src="https://github.com/user-attachments/assets/db59d00b-d00b-419f-bc1d-cec70b97d498">
 
 
 Note: To automate the seeding process, we have included it as part of your npm scripts. Here’s an example with npm scripts:
@@ -188,9 +187,6 @@ In the project directory, you can run the following scripts:
 - `npm test`: Runs tests for both the backend and frontend.
 
 
-## Contributing
-
-Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
 
 
 
