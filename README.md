@@ -28,6 +28,12 @@ This project contains the following components:
 
 ## Development
 
+## Prerequisite
+
+- Docker Desktop
+- Node version 22.6.0
+- A basic knowledge of React
+
 
 ## 1. Clone the repository:
 
