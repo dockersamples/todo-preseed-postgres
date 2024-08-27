@@ -1,6 +1,7 @@
 ## A Sample Todo-List App Preseed PostgreSQL Project
 
-<img width="670" alt="image" src="https://github.com/user-attachments/assets/aab30ac9-c8a2-4184-a504-1adaffa9324f">
+![image](https://github.com/user-attachments/assets/5147d31f-532d-4ca8-bc5d-552342bea36b)
+
 
 
 
