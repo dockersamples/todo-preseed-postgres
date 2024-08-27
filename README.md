@@ -1,20 +1,33 @@
-## A Sample Todo-List App Preseed PostgreSQL Project
+## How to Pre-Seed Postgres database with Schema and Data at Startup for Development Environment
+
+This repo contains the sample application for [Pre-Seeding Postgres database with Schema and Data at Startup for Development Environment](https://github.com/ajeetraina/todo-preseed-postgres) guide on Docker Docs. This guide will walk you through the process of pre-seeding data using Node.js in a containerised PostgreSQL environment. You will learn how to set up a PostgreSQL container using Docker Desktop and then see how to seed initial data into PostgreSQL using Node.js
+
+
+Notice: This sample repo is intended to support the guide mentioned above. As such, the application code is purposely kept simple to keep the focus on the guide's content and should not be considered production-ready.
+
+## Tech Stack
+
+
 
 ![image](https://github.com/user-attachments/assets/5147d31f-532d-4ca8-bc5d-552342bea36b)
 
+- Frontend: React
+- Backend: Node.js, Express
+- Database: Postgres
+- Database Management: PgAdmin
+
+## Project Structure
+
+This project contains the following components:
+
+- /backend - This directory contains the server.js that sets up the Express.js server and connects to the PostgreSQL database using the pg library. It also defines the routes for retrieving, creating, updating, and deleting todos.
+- /frontend - The frontend directory contains the React application that handles the user interface and interacts with the backend. It contains a React function component named App. This component is responsible for fetching data from a server and rendering it on the web page.
+- seed.js - This file is used to seed data into the database.
+- .env.sample - This file is used to store environment variables, such as database credentials and other sensitive information. It's ignored by Git to prevent exposing sensitive data in your version control system.
 
 
+## Development
 
-This project is a simple todo list application that uses a PostgreSQL database pre-seeded with a todo schema and data. 
-The frontend is built using Create React App, and the backend is a Node.js server using Express.
-
-## Pre-requisite
-
-- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-
-## Getting Started
-
-To get started with this project, follow these steps:
 
 ## 1. Clone the repository:
 
@@ -23,7 +36,13 @@ git clone https://github.com/ajeetraina/todo-preseed-postgres.git
 cd todo-preseed-postgres
 ```
 
-## 2. Setup environmental variables
+## 2. Navigate into the project
+
+```
+cd todo-preseed-postgres
+```
+
+## 3. Setup environmental variables
 
 Copy `.env.sample` to the `.env` file and make the necessary changes:
 
@@ -36,7 +55,7 @@ POSTGRES_PORT=5432
 
 ```
 
-## 2. Bring up Postgres and Adminer containers
+## 4. Bring up Postgres and Adminer containers
 
 ```
 docker compose up -d
