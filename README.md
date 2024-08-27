@@ -44,18 +44,36 @@ docker compose up -d
 
 You can verify the services running on Docker Dashboard.
 
-<img width="1332" alt="image" src="https://github.com/user-attachments/assets/f9b04ad7-9ed1-4bca-a7a4-c507543b770c">
+<img width="1358" alt="image" src="https://github.com/user-attachments/assets/a5e493a6-b8f8-4998-9dd2-9015b4009dc8">
 
 
 
-Open up [https://localhost:8080](https://localhost:8080) to access adminer.
 
-![image](https://github.com/user-attachments/assets/f472e208-3c3c-4fb6-91d9-643186e4b914)
+Open up [https://localhost:8080](https://localhost:8080) to access pgAdmin. 
+
+## Add a New Server
+
+Select "Add New Server" and supply the following credentials:
+
+- Hostname/Address: postgres
+- Port: 5432
+- Maintenance database: todo_app
+- Username: postgres
+- Password: <your_postgres_password>
+
+![image](https://github.com/user-attachments/assets/9670290b-0b64-41a0-a912-3a02e21fc0b1)
 
 
-Once you log in, you should be able to see an empty table and schema.
 
-![image](https://github.com/user-attachments/assets/23a1af8d-348a-4fcb-89e4-32fc910cd4b0)
+Once you add a new server, you can find the list of tasks by selecting the right database schema and table.
+
+![image](https://github.com/user-attachments/assets/7b5a900e-7482-4904-a6c5-0f635610f920)
+
+
+<img width="1065" alt="image" src="https://github.com/user-attachments/assets/db59d00b-d00b-419f-bc1d-cec70b97d498">
+
+
+
 
 
 
