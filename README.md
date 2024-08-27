@@ -20,10 +20,10 @@ Notice: This sample repo is intended to support the guide mentioned above. As su
 
 This project contains the following components:
 
-- /backend - This directory contains the server.js that sets up the Express.js server and connects to the PostgreSQL database using the pg library. It also defines the routes for retrieving, creating, updating, and deleting todos.
-- /frontend - The frontend directory contains the React application that handles the user interface and interacts with the backend. It contains a React function component named App. This component is responsible for fetching data from a server and rendering it on the web page.
-- seed.js - This file is used to seed data into the database.
-- .env.sample - This file is used to store environment variables, such as database credentials and other sensitive information. It's ignored by Git to prevent exposing sensitive data in your version control system.
+- **/backend** - This directory contains the server.js that sets up the Express.js server and connects to the PostgreSQL database using the pg library. It also defines the routes for retrieving, creating, updating, and deleting todos.
+- **/frontend** - The frontend directory contains the React application that handles the user interface and interacts with the backend. It contains a React function component named App. This component is responsible for fetching data from a server and rendering it on the web page.
+- **seed.js** - This file is used to seed data into the database.
+- **.env.sample** - This file is used to store environment variables, such as database credentials and other sensitive information. It's ignored by Git to prevent exposing sensitive data in your version control system.
 
 
 ## Development
