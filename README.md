@@ -31,8 +31,8 @@ This project contains the following components:
 ## Prerequisite
 
 - Docker Desktop
-- Node version 22.6.0
-- A basic knowledge of React
+- Node (Long Term Support version)
+
 
 
 ## 1. Clone the repository:
