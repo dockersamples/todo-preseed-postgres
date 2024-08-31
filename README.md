@@ -168,7 +168,7 @@ npm install
 3. Start the frontend server:
 
 ```
-npm start
+npm run dev
 ```
 
 
